@@ -8,9 +8,9 @@ public class Asd1 {
 	private String noPlat, warna, merk;
         
         public Asd1(String NoPlat, String Warna, String Merk){
-            this.noPlat = noPlat;
-            this.warna = warna;
-            this.merk = merk;
+            //this.noPlat = noPlat;
+            //this.warna = warna;
+            //this.merk = merk;
         }
 
         public String getNoPlat() {
@@ -19,7 +19,6 @@ public class Asd1 {
 
         public void setNoPlat(String noPlat) {
             this.noPlat = noPlat;
-            System.out.println("No Plat " + noPlat);
         }
 
         public String getWarna() {
@@ -28,7 +27,6 @@ public class Asd1 {
 
         public void setWarna(String warna) {
             this.warna = warna;
-            System.out.println("Warna " + warna);
         }
 
         public String getMerk() {
@@ -37,7 +35,6 @@ public class Asd1 {
 
         public void setMerk(String merk) {
             this.merk = merk;
-            System.out.println("Merk " + merk);
         }
         
   	public void displayMessage() {
@@ -57,5 +54,6 @@ public class Asd1 {
         m1.setNoPlat(NoPlat);
         m1.setWarna(Warna);
         m1.setMerk(Merk);
-}
+	m1.displayMessage();
+    }
 }
